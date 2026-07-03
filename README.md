@@ -1,3 +1,4 @@
 # 1st-Repo
-this is my fist repository <br>
-Myself kush kumar
+Name -> Kush Kumar <br>
+College -> IIIT Dharwad
+Branch -> DSAI
