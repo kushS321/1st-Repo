@@ -3,7 +3,7 @@
 <htmL>
   <body>
     <P>Name --> Kush Kumar <br>
-       Branch --> DSAI <br> 
-           College --> IIIT Dharwad <br></P>
+      College --> IIIT Dharwad <br>
+      Branch --> DSAI <br> </P>
   </body>
 </htmL>
