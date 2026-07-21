@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lecture 04</title>
+        <style>
+            .test{
+                height : 50px;
+                width : 300px;
+                color : brown ;
+                background : wheat ;
+                padding : 25px ;
+                margin : 50px;
+                border : 5px solid black
+            }
+
+            .position {
+                height : 50px;
+                width : 300px;
+                background : lightgray ;
+                position : static ;
+                margin : 50px ;
+                padding : 25px ;
+                border : 5px solid red  ; 
+            }
+
+            .box{
+                height : 50px;
+                width : 300px;
+                color : green;
+                text-align : center ;
+                background : lightblue ;
+                padding : 25px;
+                margin: 50px;
+                border : 5px solid blue;
+            }
+
+            .display {
+                height : 50px;
+                width : 300px;
+                background : lightgreen;
+                border : 5px solid brown;
+                text-align : center ;
+                margin : 50px ;
+                padding : 25px ;
+                display : inline-block ;
+            }
+
+
+            .container {
+                background : lightslategray;
+                display : flex ;
+                justify-content : space-around;
+                padding:10px ;
+            }
+            .item1 , .item2 , .item3 {
+                background : lightpink;
+                padding : 20px;
+                margin : 5px;
+                flex :1 ;
+                text-align : center ;
+            }
+
+            .grid{
+                display : grid ;
+                grid-template-columns : repeat (3 , 1fr);
+                gap : 10px;
+                background : lightyellow;
+                padding : 10px;
+            }
+            .test1 , .test2 ,.test3 {
+                background : lightseagreen ;
+                padding :20px;
+                text-align : center ;
+            }
+
+            .button {
+                background : orange ;
+                border : none ;
+                color : white ;
+                padding : 15px 32px ;
+                text-align : center ;
+                cursor : pointer ;
+                margin-top : -30px ;
+                border-radius : 12px;
+                width : 150px;
+            }
+            .button:active {
+                background : red;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class ="test">
+            CSS test content
+        </div>
+
+        <div class="position">
+            Position properties example 
+        </div>
+
+        <div class="box">
+            This is called Box model example .
+        </div>
+
+        <div class="display">
+            Display properties examples 
+        </div>
+
+        <div class="container">
+            <div class="item1">
+                <img control src = "image1.png" height = "200" , width = "200"><br>
+            <div class="item3">
+                <img control src = "image3.png" height = "200" , width = "200"> 
+            </div>
+        </div>
+        <br><br>
+
+        <div class="grid">
+            <div class="test1"> Grid-Item 1</div>
+            <div class="test2"> Grid-Item 2</div>
+            <div class="test3"> Grid-Item 3</div>
+        </div>
+        <br><br>
+        <div class="button">
+            Example button
+        </div>
+        <br><br><br>
+    </body>
+</html>
